@@ -1,0 +1,19 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+
+# Databas skapas lokalt vid uppstart, ska inte versionshanteras
+*.db
+*.db-shm
+*.db-wal
+
+# Uppladdade filer tillhör körningen, inte kodbasen.
+# .gitkeep behålls så att mappstrukturen finns efter en klon.
+wwwroot/uploads/*
+!wwwroot/uploads/.gitkeep
+
+# Verktyg
+.vs/
+.vscode/
